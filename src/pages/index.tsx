@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
+
+const a = 'hahaah';
 
 export default function Home() {
   return (
@@ -25,7 +27,7 @@ export default function Home() {
 
           <a href="https://nextjs.org/learn" className="card">
             <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn about Next.js in an interactive course with quizzessss!</p>
           </a>
 
           <a
@@ -205,5 +207,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
