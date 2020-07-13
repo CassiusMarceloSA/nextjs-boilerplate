@@ -1,6 +1,5 @@
 import Head from 'next/head';
 
-const foo = 'dasdas';
 const a = 'dsfsdfsdfs';
 export default function Home() {
   return (
