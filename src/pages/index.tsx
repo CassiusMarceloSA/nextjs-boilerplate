@@ -1,6 +1,5 @@
 import Head from 'next/head';
 
-const a = 'dsfsdfsdfs';
 export default function Home() {
   return (
     <div className="container">
