@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-const a = 'hahaah';
-
+const foo = 'dasdas';
+const a = 'dsfsdfsdfs';
 export default function Home() {
   return (
     <div className="container">
