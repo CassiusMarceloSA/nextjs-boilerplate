@@ -2,9 +2,10 @@ import * as S from './styles';
 
 const Main = ({
   title = 'React avançado - Boilerplate',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components'
+  description = 'TypeScript, ReactJS, NextJS e Styled Components',
+  color = '#000'
 }) => (
-  <S.Wrapper>
+  <S.Wrapper color={color}>
     <S.Logo
       src="/img/logo.svg"
       alt="Imagem de um átomo e React Avançado escrito ao lado"

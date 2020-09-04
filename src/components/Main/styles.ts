@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
+  background-color: ${(props) => props.color};
   color: #fff;
   width: 100%;
   height: 100%;
