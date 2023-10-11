@@ -1,8 +1,14 @@
 import * as S from './styles'
 
-const Main = () => (
+type Props = {
+  title: string
+  description: string
+}
+
+const Main = (props: Props) => (
   <S.Wrapper>
-    <h1>NextJS Boilerplate</h1>
+    <S.Title>{props.title}</S.Title>
+    <S.Description>{props.description}</S.Description>
   </S.Wrapper>
 )
 
