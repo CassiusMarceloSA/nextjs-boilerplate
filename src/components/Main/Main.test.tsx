@@ -3,7 +3,7 @@ import Main from '.'
 
 describe('<Main />', () => {
   it('Should render the heading', () => {
-    render(<Main />)
+    render(<Main title="NextJS Boilerplate" description="Help developers" />)
 
     expect(
       screen.getByRole('heading', { name: /NextJS Boilerplate/i })
